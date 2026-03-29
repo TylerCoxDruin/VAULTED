@@ -1,0 +1,29 @@
+# VAULTED — never commit these
+vaulted_config.json
+vaulted_pipeline.py
+vaulted_approve.sh
+create_shortcut.sh
+*.env
+
+# Production folders — stay local
+Audio/
+Scripts/
+Logs/
+Recordings/
+Music/
+TEST/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp
+*.tmp
+*.swp
