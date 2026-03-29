@@ -95,3 +95,7 @@ Reporting matters. Every report helps investigators identify patterns and take a
 ---
 
 *VAULTED is an independent podcast. All victim names and personal details in episodes are fictionalized. Real case details are drawn from public records, federal filings, and verified news sources.*
+
+---
+
+Made by [Ty](https://tylercoxdruin.com)
