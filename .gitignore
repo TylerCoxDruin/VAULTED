@@ -1,6 +1,14 @@
 # Sensitive config (contains API tokens — never commit)
 vaulted_config.json
 
+# Pipeline scripts (local only)
+vaulted_pipeline.py
+vaulted_shorts.py
+vaulted_batch.sh
+vaulted_setup.sh
+create_shortcut.sh
+setup_cron.sh
+
 # Runtime data
 .vaulted_history.json
 .vaulted_names.json
@@ -19,10 +27,16 @@ __pycache__/
 Audio/
 Video/
 Recordings/
-Music/Test/
+Music/
 
 # Logs
 Logs/
+
+# Artwork source files (cover.png in artwork/ is the one that matters)
+VAULTED_Podcast_Artwork*.jpeg
+VAULTED_Podcast_Artwork*.jpg
+VAULTED_Podcast_Artwork*.png
+Artwork/
 
 # Git rewrite artifacts
 .git-rewrite/
