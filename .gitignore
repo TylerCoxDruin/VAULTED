@@ -1,29 +1,31 @@
-# VAULTED — never commit these
+# Sensitive config (contains API tokens — never commit)
 vaulted_config.json
-vaulted_pipeline.py
-vaulted_approve.sh
-create_shortcut.sh
-*.env
 
-# Production folders — stay local
-Audio/
-Scripts/
-Logs/
-Recordings/
-Music/
-TEST/
+# Runtime data
+.vaulted_history.json
+.vaulted_names.json
+vaulted_episode_log.json
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
-.venv/
 
 # macOS
 .DS_Store
-.AppleDouble
-.LSOverride
+**/.DS_Store
 
-# Temp
-*.tmp
-*.swp
+# Audio/Video (large files — use GitHub Releases instead)
+Audio/
+Video/
+Recordings/
+Music/Test/
+
+# Logs
+Logs/
+
+# Git rewrite artifacts
+.git-rewrite/
+
+# Scripts (local only)
+Scripts/
