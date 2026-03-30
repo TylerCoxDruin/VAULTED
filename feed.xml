@@ -18,9 +18,9 @@
     <itunes:category text="True Crime"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="https://github.com/TylerCoxDruin/VAULTED/releases/download/ep-03-30/cover.png"/>
+    <itunes:image href="https://raw.githubusercontent.com/TylerCoxDruin/VAULTED/main/artwork/cover.png"/>
     <image>
-      <url>https://github.com/TylerCoxDruin/VAULTED/releases/download/ep-03-30/cover.png</url>
+      <url>https://raw.githubusercontent.com/TylerCoxDruin/VAULTED/main/artwork/cover.png</url>
       <title>VAULTED</title>
       <link>https://tylercoxdruin.github.io/VAULTED</link>
     </image>
